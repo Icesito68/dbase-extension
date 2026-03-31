@@ -1,0 +1,25 @@
+{
+  "name": "dbase-support",
+  "displayName": "dbase-support",
+  "description": "test project to provide basic support to dbase",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dbase",
+      "aliases": ["dbase", "dbase"],
+      "extensions": [".wfm","cfm","prj"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dbase",
+      "scopeName": "source.dbase",
+      "path": "./syntaxes/dbase.tmLanguage.json"
+    }]
+  }
+}
