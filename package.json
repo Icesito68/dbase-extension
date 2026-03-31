@@ -1,8 +1,15 @@
 {
   "name": "dbase-support",
-  "displayName": "dbase-support",
+  "displayName": "dBase Support",
+  "publisher": "Icesito68",
   "description": "test project to provide basic support to dbase",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": "Icesito68",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Icesito68/dbase-extension.git"
+  },
   "engines": {
     "vscode": "^1.110.0"
   },
@@ -14,7 +21,8 @@
       "id": "dbase",
       "aliases": ["dbase", "dbase"],
       "extensions": [".wfm","cfm","prj"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "defaultEncoding": "windows1252"
     }],
     "grammars": [{
       "language": "dbase",
