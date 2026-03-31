@@ -1,0 +1,25 @@
+# Node / npm (si alguna vez instalas paquetes)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# VSCode settings
+.vscode/
+
+# Dist / compilados
+.dist/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar Git internamente (aunque ya lo hace automáticamente)
+.git/
+
+# Archivos temporales / logs
+*.log
+*.tmp
+*.cache
+
+# Evitar publicar paquetes de VSCode que no quieras
+.vscodeignore
